@@ -34,5 +34,7 @@ I followed the following steps to extrapolate the left and right lane lines:
 2. For each bucket I calculated the mean slope and mean intercept which formed the parameters for the new single line which would replace the collection of lines in the bucket
 3. To reduce the "jump" in this single new line across frames,  I averaged the full line with the previous lines. This gave a much smoother line rendering across frames in a video stream.
 
-Testing the pipeline on the images:
+This resuls in the final image where the lane lines are transposed over the original image:
+ ![Alt text](CarND-LaneLines-P1/test_images_output/whiteCarLaneSwitch.jpg?raw=true "Final Combo image")
+
 

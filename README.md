@@ -3,11 +3,9 @@
 
 Udacity CarND Nanodegree problem
 
-The goals / steps of this project are the following:
+This repository contains the first project deliverables.
 
-Make a pipeline that finds lane lines on the road
-Reflect on your work in a written report
-Reflection
+* Image outputs with lane lines marked for the test images provided in the poject are in [test_images_output directory] (CarND-LaneLines-P1/test_images_output)
 
 ## The Pipeline for identifying lane lines
 

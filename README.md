@@ -5,7 +5,9 @@ Udacity CarND Nanodegree problem
 
 This repository contains the first project deliverables.
 
-* Image outputs with lane lines marked for the test images provided in the poject are in [test_images_output directory] (CarND-LaneLines-P1/test_images_output)
+* Image outputs with lane lines marked for the test images provided in the poject are in [test_images_output directory](CarND-LaneLines-P1/test_images_output)
+* Video outputs for the first two input files is in [test_videos_output](CarND-LaneLines-P1/test_videos_output)
+* The optional Challenger video is still not solved. Will continue working on it.
 
 ## The Pipeline for identifying lane lines
 

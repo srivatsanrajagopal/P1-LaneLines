@@ -12,9 +12,17 @@ Reflection
 
 The five steps used in the pipeline are:
 1. Convert the color image to Gray scale 
+![Alt text](CarND-LaneLines-P1/test_images_output/grayscale_example.png?raw=true "Gaussian Blur")
+
 2. Apply Guassian Blur to reduce noise in the picture. I used a kernel value of 9 for masking
+![Alt text](CarND-LaneLines-P1/test_images_output/gaussian_blur_example.png?raw=true "Gaussian Blur")
+
 3. Apply Canny Edge detection to identify the interesting edge pixels. I used a 1:3 ratio for the threshold.
+![Alt text](CarND-LaneLines-P1/test_images_output/canny_edge_example.png?raw=true "Canny Edge")
+
 4. I outlined the region of interest as the lane on which the car was driving on and masked out everything else
+![Alt text](CarND-LaneLines-P1/test_images_output/masked_edges_example.png?raw=true "Canny Edge")
+
 5. I used the Polar coordinate based Hough Transform to identify the groups of lines through the pixels in the region of interest.
  
 ## In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...

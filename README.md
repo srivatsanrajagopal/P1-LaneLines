@@ -24,11 +24,10 @@ The five steps used in the pipeline are:
 ![Alt text](CarND-LaneLines-P1/test_images_output/masked_edges_example.png?raw=true "Canny Edge")
 
 5. I used the Polar coordinate based Hough Transform to identify the groups of lines through the pixels in the region of interest. I then applied Extrapolation technique as below to draw a single smooth line through the hough transform lines.
- ![Alt text](CarND-LaneLines-P1/test_images_output/hough_lines_masked_example.png.png?raw=true "Extrapolated Hough Line")
+ ![Alt text](CarND-LaneLines-P1/test_images_output/hough_lines_masked_example.png?raw=true "Extrapolated Hough Line")
 
 
 ## Extrapolated Lane line from muliple Hough Transform lines
-## How I modified draw_lines() ....
 
 I followed the following steps to extrapolate the left and right lane lines:
 1. I grouped the smaller lines into the left and right lane line buckets by their slopes (positive vs negative)

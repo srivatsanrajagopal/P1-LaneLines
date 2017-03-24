@@ -2,16 +2,18 @@
 # Finding Lane Lines on the Road
 
 Udacity CarND Nanodegree problem
+
 The goals / steps of this project are the following:
 
 Make a pipeline that finds lane lines on the road
 Reflect on your work in a written report
 Reflection
 
-## 1. The Pipeline for identifying lane lines
+## The Pipeline for identifying lane lines
 
 The five steps used in the pipeline are:
 1. Convert the color image to Gray scale 
+
 ![Alt text](CarND-LaneLines-P1/test_images_output/grayscale_example.png?raw=true "Gaussian Blur")
 
 2. Apply Guassian Blur to reduce noise in the picture. I used a kernel value of 9 for masking
